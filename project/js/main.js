@@ -87,4 +87,5 @@ function myFunction() {
       }
       $('#login-button').attr("disabled", false);
     });
+ };
 // }
