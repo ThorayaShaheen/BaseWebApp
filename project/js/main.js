@@ -1,12 +1,12 @@
 
-function myFunction() {
+// function myFunction() {
   // use jQuery ($ is shorthand) to find the div on the page and then change the html
   // jQuery can do a lot of crazy stuff so make sure to google around to find out more
 
-  $("#demo").html("NEWWW PARAGRAPH #javascript #fire");
+  // $("#demo").html("NEWWW PARAGRAPH #javascript #fire");
 
   // 'img-circle' is a bootstrap thing! Check out more here: http://getbootstrap.com/css/
-  $("#doge-image").append(`<img class="img-circle" src="images/wowdoge.jpeg" />`);
+  // $("#doge-image").append(`<img class="img-circle" src="images/wowdoge.jpeg" />`);
   // This function sets up a listener- '.on()' gets called automatically whenever something saved in '/stream/' changes.
   // It's main purpose is to iterate over the stream in the database and add each message to the page.
   function initializeStreamListener() {
@@ -86,4 +86,4 @@ function myFunction() {
       }
       $('#login-button').attr("disabled", false);
     });
-}
+// }
